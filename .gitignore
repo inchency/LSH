@@ -1,0 +1,10 @@
+venv/
+pe_file/
+pe_file_result/
+
+.DS_Store
+.idea/
+__pycache__/
+
+dummy.py
+test.py
