@@ -5,7 +5,7 @@ INDEXING_PATH = r'/home/seclab/Documents/meseum_data/features/20181001/ae_w_128'
 SEARCH_PATH = r'/home/seclab/Documents/meseum_data/features/20181002_3000/ae_w_128'
 
 INDEXING_BIT_VECTOR_PATH = r'/home/seclab/Documents/meseum_data/features/20181001/LSH/ae_w_128_bit_vector'
-SEASRCH_BIT_VECTOR_PATH = r'/home/seclab/Documents/meseum_data/features/20181002_3000/LSH/ae_w_128_bit_vector'
+SEARCH_BIT_VECTOR_PATH = r'/home/seclab/Documents/meseum_data/features/20181002_3000/LSH/ae_w_128_bit_vector'
 
 BEFORE_SET_PATH = r'/home/seclab/Documents/meseum_data/features/20181002_3000/ae_w_128'
 STORE_BIT_VECTOR_PATH = r'/home/seclab/Documents/meseum_data/features/20181002_3000/LSH/ae_w_128_bit_vector'

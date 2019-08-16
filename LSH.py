@@ -71,12 +71,12 @@ def search_bucket(search_set_path, r_size):
             if i % r_size == r_size - 1:
                 if r_concat in BUCKET_DIC.keys():
                     collision_set = BUCKET_DIC[r_concat]
-                    r_concat = ''
                     for collision_file_md5 in collision_set:
                         if collision_file_md5 not in indexing_collision_max_cnt_dic.keys():
                             indexing_collision_max_cnt_dic[collision_file_md5] = 1
                         else:
                             indexing_collision_max_cnt_dic[collision_file_md5] += 1
+                r_concat = ''
         sort_data = sorted(indexing_collision_max_cnt_dic.items(), key=lambda x:x[1])
         try:
             max_collision_file_md5 = sort_data[0][0]
